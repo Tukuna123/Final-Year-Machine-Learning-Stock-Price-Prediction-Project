@@ -18,7 +18,7 @@ import pandas as pd
 """
 
 #loading the Data
-dataset_train = pd.read_csv('Google_Stock_Price_Train.csv')
+dataset_train = pd.rea_csv('Google_Stock_Price_Train.csv')
 print('shape is = {}'.format(dataset_train.shape))
 print(dataset_train.head())
 
